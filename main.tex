@@ -1,0 +1,109 @@
+\documentclass[12pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[top=1.5cm, bottom=1.5cm, left=1.5cm, right=2cm]{geometry}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+\usepackage{ntheorem}
+\usepackage{babel}
+\usepackage{multicol}
+\usepackage{multirow}
+\usepackage{fancyhdr}             
+\usepackage{amsfonts}
+\usepackage{setspace}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{latexsym}
+\usepackage{array}
+\usepackage{graphicx}
+\setstretch{1.55}
+\begin{document}
+\begin{tabular}[c]{ |p{0.04\linewidth}|p{38em }|} 
+\hline %\vspace{0cm}
+& \\
+& \fbox{\textbf{Exercice 1 {(2.5 points)}}}\\
+ &\vspace{0.1cm} On considère la suite numérique $(u_n)_{n\in \mathbb{N}}$ définie par:
+ $$(\forall n\in \mathbb{N})\begin{cases}
+u_{n+1}&=\dfrac{u_n^2}{3u_n+1}  \\
+u_0&=1 
+\end{cases}$$ \\
+& 1) \\
+0.5 & \quad a) Montrer que $(\forall n\in \mathbb{N});~u_n>0$ \\
+0.5 & \quad b) Montrer que $(u_n)_{n\in \mathbb{N}}$ est une suite décroissante.\\
+0.25 & \quad c) En déduire que $(u_n)_{n\in \mathbb{N}}$ est convergente.\\
+& 2) \\
+0.5 & \quad a)  Montrer que $(\forall n\in \mathbb{N});~u_{n+1}<\dfrac{1}{3}u_n$ \\
+0.5 & \quad b) En déduire que $(\forall n\in \mathbb{N});~u_{n}<\left(\dfrac{1}{3}\right)^n$\\
+0.25 & \quad c) Calculer la limite
+    $\lim\limits_{n \rightarrow \infty} u_n$\vspace{0.2cm}\\
+\hline 
+& \\
+& \fbox{\textbf{Exercice 2 {(3 points)}}}\\
+\vspace{0.1cm}0.75 &\vspace{0.1cm} 1) Résoudre dans l'ensemble des nombres complexes $\mathbb{C}$ l'équation $(E): ~5z^2-4iz+1=0$ \\
+&2) On considère, dans le plan complexe rapporté à un repère orthonormé $(O,\Vec{e_1},\Vec{e_2})$, les points  $\Omega$, $A$ et $B$ d'affixes respectives $w=1+i$, $a=1-5i$ et $b=4-2i$ \\
+0.5 & \quad a) Déterminer le module et l'argument du nombre complexe $b$ \\
+0.5 & \quad b) Montrer que $\dfrac{a-w}{b-w}=\overline{w}$\\
+0.75 &\quad c) Vérifier que $\dfrac{b-a}{b-w}=i$, puis en déduire que $AB=\Omega B$ et que $\arg \left(\dfrac{b-a}{b-w}\right)\equiv \dfrac{\pi}{2}[2\pi]$ \\
+0.5 & \quad d) En déduire la nature du triangle $AB\Omega$ \vspace{0.2cm} \\\hline\end{tabular}
+\newpage
+\begin{tabular}[c]{ |p{0.04\linewidth}|p{38em }|} 
+\hline %\vspace{0cm}
+& \\
+& \fbox{\textbf{Exercice 3 {(3 points)}}}\\
+& \vspace{0.1cm}Une urne contient 4 boules gagnantes et 6 boules perdantes. Une expérience consiste à tirer au hasard 4 fois de suite une
+boule et de la remettre. On appelle $X$ la variable aléatoire qui associe le nombre de tirage gagnant.
+\\
+1& 1) Montrer que la probabilité d'obtenir une boule gagnante est $\dfrac{2}{5}$\\
+0.5 & 2) Montrer que la variable aléatoire $X$ suit une loi binomiale.\\
+0.5 & 3) Montrer que la loi de probabilité de $X$ est $p(X=k)=C_4^k\left(\dfrac{2}{5}\right)^k\left(\dfrac{3}{5}\right)^{4-k}$\\
+0.5 & 4) Calculer la probabilité d'obtenir 3 boules gagnantes.\\
+0.5 & 5) Calculer l'espérance $E(X)$ et l'écart-type $\sigma(X)$ \vspace{0.2cm} \\
+\hline %\vspace{0cm}
+& \\
+& \fbox{\textbf{Exercice 4 {(3 points)}}}\\
+& \vspace{0.1cm}
+Dans l'espace muni d'un repère orthonormé direct $(O,\Vec{i},\Vec{j},\Vec{k})$, on considère les points $A(3;1;0)$, $B(3;5;3)$ et $C(4;4;4)$. Soit la sphère $(S)$ d'équation :
+\begin{center}
+ $(S): x^2+y^2+z^2-4x-4y+2z+5=0$   
+\end{center}
+\\
+&1) \\
+0.5 &\quad a) Montrer que $\overrightarrow{AB}\wedge \overrightarrow{AC}=7\Vec{i}+3\Vec{j}-4\Vec{k}$\\
+0.5 &\quad b) En déduire que $7x+3y-4z-24=0$ est une équation cartésienne du plan $(ABC)$ \\
+&2) \\
+0.5& \quad a) Montrer que la sphère $(S)$ est de centre $\Omega(2;2;-1)$ et de rayon $R=2$ \\
+0.5& \quad b) Vérifier que $d(\Omega;(ABC))=0$, puis en déduire que le plan $(ABC)$ coupe la sphère\\ & \quad \quad suivant un cercle $(\Gamma)$ \\
+&3) \\
+0.5 & \quad a) Déterminer une représentation paramétrique de la droite $(\Delta)$ passant par $\Omega$ et \\ & \quad \quad orthogonale au plan ($ABC$)
+\\
+0.5 & \quad b) Montrer que $\Omega$ est le centre du cercle $(\Gamma)$\vspace{0.2cm} \\\hline\end{tabular}
+\newpage
+\begin{tabular}[c]{ |p{0.04\linewidth}|p{38em }|} 
+\hline %\vspace{0cm}
+& \\
+& \fbox{\textbf{Problème {(8.5 points)}}}\\
+& \vspace{0.1cm}On considère la fonction numérique $f$ définie sur $\mathbb{R}$ par: $f(x)=x-1+2xe^x$\\
+& Soit $(\mathcal{C}_f)$ la courbe représentation de la fonction $f$ dans un repère orthonormé $(O,\Vec{i},\Vec{j})$, avec $\left\|\Vec{i}\right\|=\left\|\Vec{j}\right\|=1cm$\\
+& \textbf{Partie I: }\\
+& 1) \\
+0.5 & \quad a) Montrer que $\lim\limits_{x \rightarrow -\infty} f(x)= -\infty$ et $\lim\limits_{x \rightarrow +\infty} f(x)=+\infty$ \\
+0.5 & \quad b) Montrer que la droite $(D):~y=x-1$ est une asymptote à la courbe $(\mathcal{C}_f)$ au \\& \quad \quad voisinage de $-\infty$ \\
+0.75& 2) Montrer que $\lim\limits_{x \rightarrow +\infty} \dfrac{f(x)}{x}=+\infty$. Interpréter géométriquement ce résultat.\\
+& 3)  \\
+0.5 & \quad a) Montrer que, pour tout réel $x$, $f'(x)=2e^x(x+1)+1$ \\
+0.5 & \quad b) Donner le tableau de variations de la fonction $f$ sur $\mathbb{R}$ \\
+0.75 & \quad c) Montrer que \textit{il existe un unique} $\alpha$ de l'intervalle $]0;1[$ tel que $f(\alpha)=0$ \\
+& 4)  \\
+0.5 & \quad a) Montrer que la droite $(D)$ est située en dessous de la courbe $(\mathcal{C}_f)$ sur $]0;+\infty[$ et en \\ & \quad \quad dessus de la courbe $(\mathcal{C}_f)$ sur $]-\infty;0[$\\
+0.75& \quad b) Montrer que la courbe $(\mathcal{C}_f)$ admet un point d'inflexion à déterminer. \\ & \quad \quad (\textit{On donne $f(-2)\simeq -3,54$})  \\
+1.25 &\quad c) Construire la droite $(D)$ et la courbe $(\mathcal{C}_f)$ dans le même repère $(O,\Vec{i},\Vec{j})$. \\ &\quad \quad (On prendra $\alpha=0,27$)\\
+& 5)  \\
+0.75 & \quad a) Montrer que $\begin{aligned}\int_{0}^{1}{2xe^x}\;dx\end{aligned}=2$ \\
+0.5 & \quad b) Calculer en $cm^2$, l'aire du domaine plan limité par la courbe $(\mathcal{C}_f)$, la droite $(D)$, \\ & \qquad l'axe des ordonnées et la droite d'équation $x=1$\\
+& \textbf{Partie II: }\\
+& 1) \\
+0.75&\quad a) Résoudre l'équation différentielle $(E): ~y''-5y'+6y=0$\\
+0.5&\quad b) Déterminer la solution $g$ vérifiant $g(0)=-2$ et $g'(0)=-1$ \\ \hline 
+\end{tabular}
+
+\end{document}
